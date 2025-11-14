@@ -1,0 +1,19 @@
+"""#urlopen (Keep in mind, really urllib.request.urlopen) returns an HTTPResponse object
+page = urlopen(test_url)
+
+#Extracting HTML from page by using HTTPResponse object's .read() method
+html = page.read().decode("utf-8")
+
+#IMPORTANT!!! Must decode after w/ .decode() ^^Just found out you can do that
+
+#Finally, you can print (Or return if using in a function) the HTML to see contents
+#print(html)
+
+#Extracting contents from HTML website
+start_index = html.find("<title>")
+end_index = html.find("</title>")
+
+title = html[start_index:end_index]
+
+regex.findall("<title>.*</title>", title) #Research more on .search and MatchObject
+"""
