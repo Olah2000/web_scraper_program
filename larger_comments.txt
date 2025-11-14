@@ -17,3 +17,9 @@ title = html[start_index:end_index]
 
 regex.findall("<title>.*</title>", title) #Research more on .search and MatchObject
 """
+
+Beautiful Soup is great for MOST websites. But it sometimes can fail
+Does not work with HTML forms :(
+
+
+Ole reliable is regular expression manipulation
