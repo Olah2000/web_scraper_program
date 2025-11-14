@@ -23,3 +23,24 @@ Does not work with HTML forms :(
 
 
 Ole reliable is regular expression manipulation
+
+#file1 = open(r"C:\Users\OLAHg\Desktop\web_scraper\stored_image_sources.txt", "w+")
+
+
+
+
+#print(img_getter(souper("https://www.pinterest.com/ideas/wallpapers/951361127909/")))
+
+
+#image_list = souper.find_all("img")
+#print(image_source)
+
+#pattern_1 = "<title.*?>.*?</title.*?"
+#search_operand = regex.search(pattern_1, html, regex.IGNORECASE)
+#title = search_operand.group()
+
+
+#ValueError: ~~~ Occurs when there is no https//: and .com extensions in search url
+#urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>: ~~~ Occurs when there's no is not a website of this domain
+
+
